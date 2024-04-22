@@ -152,6 +152,15 @@ body {
   background-color: #404bbf;
 }
 /*  ============  QUALITY  ============  */
+.list-of-qualitys{
+  display: flex;
+  column-gap: 24px;
+}
+.page-quality{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 
 .title-card-qualitys {
   font-size: 20px;
@@ -181,9 +190,14 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .list-team {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
 }
 .card-team{
   background-color: #ffffff;
@@ -194,12 +208,17 @@ body {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .job-title {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  text-align: center;
 }
 /*  ============  TEAM PORTFOLIO  ============  */
 .portfolio-title {
@@ -210,6 +229,8 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 .card-portfolio-title {
 font-size: 20px;
@@ -217,6 +238,9 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-top: 32px;
+padding-left: 16px;
+margin-bottom: 8px;
 }
 .service{
 font-size: 16px;
@@ -224,12 +248,23 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 columns: #434455 ;
+padding-left: 16px;
+padding-bottom: 32px;
 }
-
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
 /* ============  FOOTER  ============  */
 
 .page-footer {
   background-color: #2e2f42;
+}
+.footer-container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
 }
 
 .footer-logo {
@@ -240,12 +275,16 @@ columns: #434455 ;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  
 }
 .footer-logo-web {
   color: #f4f4fd;
+  
 }
 .footer-text {
   line-height: 1.5;
   color: #F4F4FD;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  margin-top: 16px;
 }
