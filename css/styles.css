@@ -183,7 +183,7 @@ img {
   padding-bottom: 120px;
 }
 .card-qualitys {
-  width: calc((100%-72%) / 4);
+  width: calc((100%-72px) / 4);
 }
 
 .title-card-qualitys {
@@ -225,7 +225,7 @@ img {
 }
 .card-team {
   background-color: #ffffff;
-  width: calc((100%-72) / 4);
+  width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .title-team {
