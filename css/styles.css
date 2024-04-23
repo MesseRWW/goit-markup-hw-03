@@ -42,7 +42,19 @@ body {
 img {
   display: block;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* =============  HEADER  ============= */
 
 .page-header {
@@ -161,9 +173,6 @@ img {
   background-color: #404bbf;
 }
 /*  ============  QUALITY  ============  */
-.quality-title {
-  visibility: hidden;
-}
 
 .list-of-qualitys {
   display: flex;
@@ -273,9 +282,9 @@ img {
   gap: 48px 24px;
 }
 .card-portfolio {
-  width: calc((100%-48) / 3);
+  width: calc((100%-48px) / 3);
 }
-.info-portfolio{
+.info-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -286,7 +295,6 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-
 
 .footer-logo {
   font-family: Raleway, sans-serif;
